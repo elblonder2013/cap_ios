@@ -15,7 +15,7 @@ static Manager *sharedPool = nil;
     {
         if (sharedPool == nil)
         {
-            [[self alloc] init];
+              [[self alloc] init];
         }
     }
     
