@@ -11,7 +11,7 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-
+- (void)showHome:(UIViewController *)current;
+- (void)showLogin:(UIViewController *)current;
 @end
 
