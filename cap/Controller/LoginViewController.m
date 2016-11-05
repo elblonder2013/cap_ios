@@ -60,8 +60,8 @@
     }];
     [request startAsynchronous];*/
     /*iendo directo a */
-    HomeInversionistaVC * vc = [[HomeInversionistaVC alloc] initWithNibName:@"HomeInversionistaVC" bundle:nil];
-    [self.navigationController pushViewController:vc animated:YES];
+   // HomeInversionistaVC * vc = [[HomeInversionistaVC alloc] initWithNibName:@"HomeInversionistaVC" bundle:nil];
+  //  [self.navigationController pushViewController:vc animated:YES];
 }
 -(void)PrepararCompontes
 {
